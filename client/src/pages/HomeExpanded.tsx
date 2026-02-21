@@ -184,7 +184,6 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            {/* Placeholder for commercial videos */}
             <div className="relative h-64 md:h-80 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg overflow-hidden group cursor-pointer">
               <img
                 src={heroImages.commercials}
@@ -326,6 +325,201 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
+            What Partners Say
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-emerald-600 text-xl">★</span>
+                ))}
+              </div>
+              <p className="text-slate-700 mb-6">
+                "Owen's understanding of the cannabis market and ability to build real relationships is unmatched. Trail Hazers was a game-changer."
+              </p>
+              <p className="font-bold text-slate-900">Partner Name</p>
+              <p className="text-slate-600 text-sm">Wholesale Account</p>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-emerald-600 text-xl">★</span>
+                ))}
+              </div>
+              <p className="text-slate-700 mb-6">
+                "Working with Owen on operations strategy transformed how we think about scaling. His systems approach is invaluable."
+              </p>
+              <p className="font-bold text-slate-900">Founder Name</p>
+              <p className="text-slate-600 text-sm">Tech Startup</p>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-emerald-600 text-xl">★</span>
+                ))}
+              </div>
+              <p className="text-slate-700 mb-6">
+                "Owen doesn't just understand cannabis — he understands business. His compliance expertise saved us months of headaches."
+              </p>
+              <p className="font-bold text-slate-900">Compliance Officer</p>
+              <p className="text-slate-600 text-sm">Cannabis Business</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Growth Timeline Section */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
+            Trail Hazers Growth Journey
+          </h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="space-y-8">
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-24 text-right">
+                  <p className="font-bold text-emerald-600 text-lg">2019</p>
+                  <p className="text-slate-600 text-sm">Launch</p>
+                </div>
+                <div className="flex-1 pt-2 border-l-2 border-emerald-600 pl-6">
+                  <p className="font-bold text-slate-900">From Zero</p>
+                  <p className="text-slate-600">Started Trail Hazers with zero outside capital, solo founder</p>
+                </div>
+              </div>
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-24 text-right">
+                  <p className="font-bold text-emerald-600 text-lg">2020-2021</p>
+                  <p className="text-slate-600 text-sm">Growth</p>
+                </div>
+                <div className="flex-1 pt-2 border-l-2 border-emerald-600 pl-6">
+                  <p className="font-bold text-slate-900">Wholesale Expansion</p>
+                  <p className="text-slate-600">Built 40+ recurring wholesale accounts through direct relationships</p>
+                </div>
+              </div>
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-24 text-right">
+                  <p className="font-bold text-emerald-600 text-lg">2021-2022</p>
+                  <p className="text-slate-600 text-sm">Scale</p>
+                </div>
+                <div className="flex-1 pt-2 border-l-2 border-emerald-600 pl-6">
+                  <p className="font-bold text-slate-900">$2.56M Annual Revenue</p>
+                  <p className="text-slate-600">Reached $2.56M in annual revenue with custom booking system and delivery team</p>
+                </div>
+              </div>
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-24 text-right">
+                  <p className="font-bold text-emerald-600 text-lg">2023</p>
+                  <p className="text-slate-600 text-sm">Exit</p>
+                </div>
+                <div className="flex-1 pt-2 border-l-2 border-emerald-600 pl-6">
+                  <p className="font-bold text-slate-900">Strategic Sale</p>
+                  <p className="text-slate-600">Sold to strategic competitor with clean transition of accounts and operations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills & Expertise Matrix */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
+            Skills & Expertise
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-slate-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-emerald-600">Cannabis Industry</h3>
+              <ul className="space-y-3 text-slate-700">
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>I-71 Compliance & Regulations</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Product Sourcing & Vendor Management</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Wholesale Account Development</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Brand Building & Positioning</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-emerald-600">Operations & Strategy</h3>
+              <ul className="space-y-3 text-slate-700">
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Revenue Operations (RevOps)</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Systems Design & Implementation</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Cash Flow & Financial Management</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Team Building & Leadership</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-emerald-600">Business Development</h3>
+              <ul className="space-y-3 text-slate-700">
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Relationship Building & Networking</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Word-of-Mouth Marketing</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Sales Pipeline Development</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Customer Retention Strategy</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-emerald-600">Tools & Platforms</h3>
+              <ul className="space-y-3 text-slate-700">
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>HubSpot CRM & RevOps</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Salesforce Lightning</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Google Analytics & GCP</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Zapier, Make, Apollo.io</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Professional Experience Section */}
       <section id="experience" className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -334,7 +528,6 @@ export default function Home() {
           </h2>
 
           <div className="space-y-8 max-w-4xl mx-auto">
-            {/* Current Role */}
             <div className="border-l-4 border-emerald-600 pl-8 py-4">
               <h3 className="text-2xl font-bold mb-2">
                 Strategic Operations Consultant
@@ -345,7 +538,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Trail Hazers */}
             <div className="border-l-4 border-emerald-600 pl-8 py-4">
               <h3 className="text-2xl font-bold mb-2">
                 Founder, Trail Hazers
@@ -356,7 +548,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Operations Experience */}
             <div className="border-l-4 border-emerald-600 pl-8 py-4">
               <h3 className="text-2xl font-bold mb-2">
                 Operations Professional
@@ -367,7 +558,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Education */}
             <div className="border-l-4 border-emerald-600 pl-8 py-4">
               <h3 className="text-2xl font-bold mb-2">
                 Education & Certifications
