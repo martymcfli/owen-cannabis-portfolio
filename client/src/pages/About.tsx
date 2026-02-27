@@ -74,11 +74,8 @@ export default function About() {
                 Today, I work with founders in tech, advise on operations and sales strategy, and continue exploring creative ventures. But cannabis will always be part of my story — it's where I learned to build something real.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-emerald-100 to-emerald-50 rounded-lg h-96 flex items-center justify-center">
-              <div className="text-center">
-                <p className="text-slate-600 font-medium">Photo Placeholder</p>
-                <p className="text-sm text-slate-500">Your photo here</p>
-              </div>
+            <div className="rounded-lg overflow-hidden h-96">
+              <img src="/owen-cannabis-portfolio/owen-profile.png" alt="Owen McCormick" className="w-full h-full object-cover object-top" />
             </div>
           </div>
         </div>
