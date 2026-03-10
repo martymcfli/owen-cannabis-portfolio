@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
 import Showcase from "./pages/Showcase";
+import Music from "./pages/Music";
 
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
       <Route path={"/blog"} component={Blog} />
       <Route path={"/resume"} component={Resume} />
       <Route path={"/showcase"} component={Showcase} />
+      <Route path={"/music"} component={Music} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

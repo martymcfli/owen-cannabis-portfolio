@@ -50,7 +50,7 @@ export default function Home() {
             <a href="#commercials" className="text-sm font-medium hover:text-emerald-600 transition">
               Commercials
             </a>
-            <a href="#music" className="text-sm font-medium hover:text-emerald-600 transition">
+            <a href="/music" className="text-sm font-medium hover:text-emerald-600 transition">
               Music
             </a>
             <a href="#experience" className="text-sm font-medium hover:text-emerald-600 transition">
