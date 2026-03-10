@@ -15,9 +15,12 @@ export default function About() {
       {/* Navigation */}
       <nav className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="/" className="text-2xl font-bold tracking-tight">
-            <span className="text-slate-900">Owen</span>
-            <span className="text-emerald-600 ml-1">McCormick</span>
+          <a href="/" className="flex items-center h-12">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/Gemini_Generated_Image_7ib6c97ib6c97ib6_f1ae6505.jpeg"
+              alt="McCormick Advisory"
+              className="h-full object-contain"
+            />
           </a>
           <div className="hidden md:flex gap-8">
             <a href="/" className="text-sm font-medium hover:text-emerald-600 transition">

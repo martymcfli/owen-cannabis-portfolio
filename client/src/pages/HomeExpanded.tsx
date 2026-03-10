@@ -34,10 +34,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold tracking-tight">
-            <span className="text-slate-900">Owen</span>
-            <span className="text-emerald-600 ml-1">McCormick</span>
-          </div>
+          <a href="/" className="flex items-center h-12">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/Gemini_Generated_Image_7ib6c97ib6c97ib6_f1ae6505.jpeg"
+              alt="McCormick Advisory"
+              className="h-full object-contain"
+            />
+          </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8 items-center">
@@ -100,12 +103,15 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Cannabis Industry
-              <span className="text-emerald-400 block">Professional</span>
-            </h1>
+            <div className="mb-6 max-w-md">
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/Gemini_Generated_Image_7ib6c97ib6c97ib6_f1ae6505.jpeg"
+                alt="McCormick Advisory"
+                className="w-full"
+              />
+            </div>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl">
-              Built and scaled Trail Hazers to $2.56M annual revenue. Authentic cannabis business experience with commercials, products, and creative ventures.
+              Entrepreneur, operator, and creative. Built Trail Hazers to $2.56M. Sharing my journey in cannabis, business, and beyond.
             </p>
             <div className="flex gap-4 flex-wrap">
               <Button className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 text-lg">
@@ -601,9 +607,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-white font-bold mb-4">Owen McCormick</h3>
+              <h3 className="text-white font-bold mb-4">McCormick Advisory</h3>
               <p className="text-sm">
-                Cannabis industry professional and entrepreneur. Trail Hazers founder.
+                Entrepreneur, operations strategist, and advisor. Trail Hazers founder.
               </p>
             </div>
             <div>
@@ -663,7 +669,7 @@ export default function Home() {
 
           <div className="border-t border-slate-800 pt-8 text-center text-sm">
             <p>
-              © 2026 Owen P. McCormick. Cannabis industry portfolio. Built for GitHub Pages.
+              © 2026 McCormick Advisory. Cannabis industry portfolio and operations advisory.
             </p>
           </div>
         </div>
