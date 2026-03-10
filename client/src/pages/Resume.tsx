@@ -17,7 +17,7 @@ export default function Resume() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center h-12">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/Gemini_Generated_Image_7ib6c97ib6c97ib6_f1ae6505.jpeg"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/7F00EFB9-6B22-4354-B6A7-74DEC8F13271_1_105_c-removebg-preview(1)_c667c6e0.png"
               alt="McCormick Advisory"
               className="h-full object-contain"
             />
@@ -52,7 +52,7 @@ export default function Resume() {
             <div>
               <div className="max-w-xs mb-4">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/Gemini_Generated_Image_7ib6c97ib6c97ib6_f1ae6505.jpeg"
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663042084665/2fRphz9SQ6RwDzimX58H4r/7F00EFB9-6B22-4354-B6A7-74DEC8F13271_1_105_c-removebg-preview(1)_c667c6e0.png"
                   alt="McCormick Advisory"
                   className="w-full"
                 />
